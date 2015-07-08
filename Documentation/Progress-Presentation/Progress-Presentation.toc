@@ -1,0 +1,18 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Overview of Project}{2}{0}{1}
+\beamer@sectionintoc {2}{Image}{3}{0}{2}
+\beamer@sectionintoc {3}{Overview of Task}{4}{0}{3}
+\beamer@sectionintoc {4}{Task Accomplised}{5}{0}{4}
+\beamer@sectionintoc {5}{Task Accomplished}{6}{0}{5}
+\beamer@sectionintoc {6}{Task Accomplished}{7}{0}{6}
+\beamer@sectionintoc {7}{L293D Interfacing}{8}{0}{7}
+\beamer@sectionintoc {8}{L298N Interfacing}{9}{0}{8}
+\beamer@sectionintoc {9}{LCD Interfacing}{10}{0}{9}
+\beamer@sectionintoc {10}{GY-80 Module Interfacing}{11}{0}{10}
+\beamer@sectionintoc {11}{Task Accomplished}{12}{0}{11}
+\beamer@sectionintoc {12}{I2C protocol}{13}{0}{12}
+\beamer@sectionintoc {13}{I2C software protocol}{14}{0}{13}
+\beamer@sectionintoc {14}{PID algorithm for the bot}{15}{0}{14}
+\beamer@sectionintoc {15}{Challenges faced}{16}{0}{15}
+\beamer@sectionintoc {16}{Future Plans}{17}{0}{16}
+\beamer@sectionintoc {17}{Thank You}{18}{0}{17}

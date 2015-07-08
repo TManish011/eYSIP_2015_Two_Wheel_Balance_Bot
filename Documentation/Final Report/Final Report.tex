@@ -1,0 +1,179 @@
+
+\documentclass[report]{res} 
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=blue,
+}
+
+\urlstyle{same}
+
+
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+{\LARGE e-Yantra Summer Internship Programme 2015}\\[1.5cm] % Name of your university/college
+{\Large IIT Bombay}\\[1cm] % Major heading such as course name
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Development of PC controlled two wheel balance bot}\\[0.4cm] % Title of your document
+\HRule \\[4cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Interns: }\\
+\end{flushleft}
+
+\begin{flushleft}
+{\large B Suresh} \\  Email:sureshbutterfly@gmail.com \\ Mob: 9972413186
+\end{flushleft}
+
+\begin{flushleft}
+	{\large Devendra Kumar Jangir} \\  Email:devendraj592@gmail.com
+\\Mob: 9454190392 \\
+\end{flushleft}
+\begin{flushleft}
+	{\large Ramiz Hussain \\} Email:ramizhussain123@gmail.com \\Mob: 8495980234
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Mentors:} \\
+\end{flushright}
+\begin{flushright}
+{\large Piyush Manavar\\} 
+\end{flushright}
+\begin{flushright}
+{\large Saurav Shandaliya \\} % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[2cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+{ Under the guidance of\\ \large{ Prof.Kavi Arya\\[3cm]}} % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+{\large 25 June 2015  \\ to \\ 8 July 2015}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+
+
+
+\large
+	
+	\section{\large Abstract}
+	\ Balance bot is a two wheeled robot which can balance itself without any extra support.
+	The balance bot can be considered as an advancement of the  classic inverted pendulum problem.\\
+	In order to balance the bot, the magnitude and direction in which  the bot is tilting is measured using accelerometer and gyroscope. The signals obtained are then used to move the wheels in the direction in which the bot is falling.Complementary filter is used to obtain better results from the accelerometer and gyroscope. Proportional Integral Derivative (PID) is used to control the motor speed.
+    The wireless communication is done using zigbee to move the bot in forward and backward direction.
+    Comparison of output and input is done using scilab and a GUI is also made.
+	
+	
+	
+	
+	
+	\section{\large Objective}
+	\begin{itemize}
+		\item Selection of components, sensors and actuators 
+		\item Design and fabrication of bot
+		\item Designing of circuit,power management and interfacing 
+		\item Algorithm and code implementation for balancing
+		\item Algorithm and code implementation for locomotion via PC communication 
+		\item Analysis and documentation 	
+	\end{itemize}
+	
+	\section{\large Extent of Completion}
+	 The bot was balanced and made PC controlled.
+	 The forward and backward motion control was achieved. The right and left motion  control were not accomplished as it required more time for tuning.
+	 
+	 
+	 The tasks alloted were well designed and enough time was given for the respective tasks.
+	 the first, second and the third tasks were completed on time but the tuning for task four got delayed as we did not receive the batteries. Nevertheless, with some extra effort and determination we were able to complete the project on time.
+	 
+	
+	\section{\large Results and Discussion}
+	\begin{itemize}
+		\item The bot is balancing and its motion can be controlled by PC.
+		\item There were many changes in the design like reducing the weight of the bot and removing the weight shifting mechanism,changing the position of batteries, sensors etc.
+		\item The major challenge was that of design which in turn affected the tuning process.The higher center of gravity requires high torque that demands large tuning parameters.This results in frequent polarity change that leads to large current and back-EMF which resulted in burning of brushes in motors.We solved this problem by moving the battery lower moving to a more stable Center of Gravity. 
+		\item Real-time plot of input and output of PID controller helped in tuning and to check the crossing of bounds of PID output.
+		\item Complementary filter was very effective in making the bot more stable.
+		\item In order to move forward and backward, the method of changing PID setpoint was used.
+	\end{itemize}
+	
+	
+	\section{\large Bugs}
+	\begin{itemize}
+		\item The bot is not able to balance at a single point.It sways and moves over time.It is very susceptible to unbalanced mass.
+		\item There is jitter at the balance point.Its reason is not known at this point.
+		\item The maximum disturbance angle is limited to 15 degrees due to the motor torque and rpm.
+		\item There is more tendency for the bot to fall when turning due to lesser stability. 
+		\item Additional weight added to the bot makes it more unstable
+		\item While using the Scilab realtime plot,if the bot is turned off before pressing the 'stop' button it can cause Scilab to hang.
+	\end{itemize}
+	
+	
+	
+	\section{\large Future Plans}
+	\begin{enumerate}
+		\item PID tuning can be made finer to make the bot more stable
+		\item Right and left turns can be improved
+		\item Low pass filter can be added to the motor PWM to reduce the jitter
+		\item Gyroscope can be used to take precise turns
+		\item Accelerometer/optical encoders can be use to balance the bot at a given position
+		\item Other  actuators can be added to make it a line follower 
+	\end{enumerate}
+
+	
+\section{\large References}
+	 \begin{itemize}
+	 	\item
+	 	\texttt{\href{http://www.hobbytronics.co.uk/accelerometer-gyro}{Integration of accelerometer and gyroscope using complimentary filter}
+	 	\item
+	 	\href{http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/}{PID Implementation}
+		\item
+		\href{https://class.coursera.org/conrob-002/lecture}{Coursera course on PID Control by Dr.Magnus Egerstedt}
+		\item
+		\href{http://letsmakerobots.com/node/38610}{Velocity mapping from PID output}
+		\item
+		\href{https://github.com/FMMT666/SiSeLi}{Serial library for Scilab}}
+	 \end{itemize}
+	 
+	 
+\end{document}
+
