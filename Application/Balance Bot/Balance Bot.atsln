@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Balance Bot", "Balance Bot\Balance Bot.cproj", "{048C5644-F594-4704-A0AC-AB6F740C7D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{048C5644-F594-4704-A0AC-AB6F740C7D5C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{048C5644-F594-4704-A0AC-AB6F740C7D5C}.Debug|AVR.Build.0 = Debug|AVR
+		{048C5644-F594-4704-A0AC-AB6F740C7D5C}.Release|AVR.ActiveCfg = Release|AVR
+		{048C5644-F594-4704-A0AC-AB6F740C7D5C}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
