@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.26)  8 JUL 2015 13:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.26)  9 JUL 2015 11:12
 entering extended mode
 **Final*Report.tex
-("C:\Users\Suma\Desktop\Project Report\Final Report.tex"
+
+("C:\Users\Suma\Documents\GitHub\eYSIP_2015_Two_Wheel_Balance_Bot\Documentation
+\Final Report\Final Report.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -272,7 +274,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
  4914 strings out of 493921
- 72802 string characters out of 3144879
+ 72964 string characters out of 3144879
  152836 words of memory out of 3000000
  8213 multiletter control sequences out of 15000+200000
  6221 words of font info for 23 fonts, out of 3000000 for 9000
@@ -285,7 +287,7 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Final Report.pdf" (3 pages, 95562 bytes).
+Output written on "Final Report.pdf" (3 pages, 95580 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
